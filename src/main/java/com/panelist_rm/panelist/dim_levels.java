@@ -8,10 +8,96 @@ public class dim_levels implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    public dim_levels() {
+  public dim_levels() {
     }
 
+  private Long level_0;
+  private Long level_1;
+  private Long level_2;
+  private Long level_3;
+  private Long level_4;
+  private Long level_5;
+  private Long level_6;
+  private Long level_7;
+  private Long level_8;
+  private Long level_9;
+        public Long getLevel_0() {
+                return this.level_0;
+        }
 
+        public void setLevel_0(Long level_0) {
+                this.level_0 = level_0;
+        }
 
+        public Long getLevel_1() {
+                return this.level_1;
+        }
 
+        public void setLevel_1(Long level_1) {
+                this.level_1 = level_1;
+        }
+
+        public Long getLevel_2() {
+                return this.level_2;
+        }
+
+        public void setLevel_2(Long level_2) {
+                this.level_2 = level_2;
+        }
+
+        public Long getLevel_3() {
+                return this.level_3;
+        }
+
+        public void setLevel_3(Long level_3) {
+                this.level_3 = level_3;
+        }
+
+        public Long getLevel_4() {
+                return this.level_4;
+        }
+
+        public void setLevel_4(Long level_4) {
+                this.level_4 = level_4;
+        }
+
+        public Long getLevel_5() {
+                return this.level_5;
+        }
+
+        public void setLevel_5(Long level_5) {
+                this.level_5 = level_5;
+        }
+
+        public Long getLevel_6() {
+                return this.level_6;
+        }
+
+        public void setLevel_6(Long level_6) {
+                this.level_6 = level_6;
+        }
+
+        public Long getLevel_7() {
+                return this.level_7;
+        }
+
+        public void setLevel_7(Long level_7) {
+                this.level_7 = level_7;
+        }
+
+        public Long getLevel_8() {
+                return this.level_8;
+        }
+
+        public void setLevel_8(Long level_8) {
+                this.level_8 = level_8;
+        }
+
+        public Long getLevel_9() {
+                return this.level_9;
+        }
+
+        public void setLevel_9(Long level_9) {
+                this.level_9 = level_9;
+        }
 }
