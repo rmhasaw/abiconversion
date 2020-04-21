@@ -45,6 +45,16 @@
       <version>7.27.0.Final</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>odbc6g</groupId>
+      <artifactId>odbc6g</artifactId>
+      <version>6g</version>
+    </dependency>
+    <dependency>
+      <groupId>com.udc_rm</groupId>
+      <artifactId>UDC</artifactId>
+      <version>115</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
