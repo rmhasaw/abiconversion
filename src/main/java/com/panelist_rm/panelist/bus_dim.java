@@ -6,12 +6,34 @@ package com.panelist_rm.panelist;
 
 public class bus_dim implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public bus_dim() {
-    }
+	private java.lang.String dim_name;
+	private com.panelist_rm.panelist.dim_levels dim_levels;
 
+	public bus_dim() {
+	}
 
+	public java.lang.String getDim_name() {
+		return this.dim_name;
+	}
 
+	public void setDim_name(java.lang.String dim_name) {
+		this.dim_name = dim_name;
+	}
+
+	public com.panelist_rm.panelist.dim_levels getDim_levels() {
+		return this.dim_levels;
+	}
+
+	public void setDim_levels(com.panelist_rm.panelist.dim_levels dim_levels) {
+		this.dim_levels = dim_levels;
+	}
+
+	public bus_dim(java.lang.String dim_name,
+			com.panelist_rm.panelist.dim_levels dim_levels) {
+		this.dim_name = dim_name;
+		this.dim_levels = dim_levels;
+	}
 
 }
