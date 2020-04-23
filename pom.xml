@@ -48,7 +48,7 @@
     <dependency>
       <groupId>file_handling</groupId>
       <artifactId>file_handling</artifactId>
-      <version>8</version>
+      <version>9</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
