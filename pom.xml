@@ -45,17 +45,6 @@
       <version>7.27.0.Final</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>odbc6g</groupId>
-      <artifactId>odbc6g</artifactId>
-      <version>6g</version>
-    </dependency>
-    <dependency>
-      <groupId>file_handling</groupId>
-      <artifactId>file_handling</artifactId>
-      <version>7</version>
-      <scope>compile</scope>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
