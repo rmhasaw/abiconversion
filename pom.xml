@@ -51,9 +51,9 @@
       <version>6g</version>
     </dependency>
     <dependency>
-      <groupId>file handle</groupId>
-      <artifactId>file handle</artifactId>
-      <version>5</version>
+      <groupId>file_handling</groupId>
+      <artifactId>file_handling</artifactId>
+      <version>6</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
