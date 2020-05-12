@@ -9,6 +9,8 @@ public class cns_panelist_datamodel implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	private java.util.List<java.lang.Integer> multi_choice_codes_05;
+
 	public cns_panelist_datamodel() {
 	}
 
@@ -199,7 +201,6 @@ public class cns_panelist_datamodel implements java.io.Serializable {
 	private java.util.List<java.lang.Long> multi_choice_codes_02;
 	private java.util.List<java.lang.Long> multi_choice_codes_03;
 	private java.util.List<java.lang.Long> multi_choice_codes_04;
-	private java.util.List<java.lang.Long> multi_choice_codes_05;
 	private java.util.List<java.lang.Long> multi_choice_codes_06;
 	private java.util.List<java.lang.Long> multi_choice_codes_07;
 	private java.util.List<java.lang.Long> multi_choice_codes_08;
@@ -1858,15 +1859,6 @@ public class cns_panelist_datamodel implements java.io.Serializable {
 		this.multi_choice_codes_04 = multi_choice_codes_04;
 	}
 
-	public java.util.List<java.lang.Long> getMulti_choice_codes_05() {
-		return this.multi_choice_codes_05;
-	}
-
-	public void setMulti_choice_codes_05(
-			java.util.List<java.lang.Long> multi_choice_codes_05) {
-		this.multi_choice_codes_05 = multi_choice_codes_05;
-	}
-
 	public java.util.List<java.lang.Long> getMulti_choice_codes_06() {
 		return this.multi_choice_codes_06;
 	}
@@ -3161,6 +3153,15 @@ public class cns_panelist_datamodel implements java.io.Serializable {
 
 	public void setEnd_of_rec(String end_of_rec) {
 		this.end_of_rec = end_of_rec;
+	}
+
+	public java.util.List<java.lang.Integer> getMulti_choice_codes_05() {
+		return this.multi_choice_codes_05;
+	}
+
+	public void setMulti_choice_codes_05(
+			java.util.List<java.lang.Integer> multi_choice_codes_05) {
+		this.multi_choice_codes_05 = multi_choice_codes_05;
 	}
 
 	/*
