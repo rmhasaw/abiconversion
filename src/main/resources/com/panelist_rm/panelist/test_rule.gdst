@@ -70,6 +70,60 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
+    <Pattern52>
+      <factType>dim_levels</factType>
+      <boundName>dim</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>NUMERIC_LONG</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>304</width>
+          <header>Bus_Dim level 3 </header>
+          <constraintValueType>1</constraintValueType>
+          <factField>level_3</factField>
+          <fieldType>Long</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
+    <Pattern52>
+      <factType>bus_dim</factType>
+      <boundName>bus</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>bus_dim_dim_levels </header>
+          <constraintValueType>1</constraintValueType>
+          <factField>dim_levels</factField>
+          <fieldType>dim_levels</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
   </conditionPatterns>
   <actionCols/>
   <auditLog>
@@ -134,6 +188,17 @@
         <valueNumeric class="long">1243007765</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">12</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>1</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
