@@ -28,7 +28,7 @@
           </factIdentifier>
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
-          <columnWidth>300.0</columnWidth>
+          <columnWidth>351.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -51,7 +51,7 @@
           <factAlias>cns_panelist_datamodel</factAlias>
           <expressionAlias>multi_choice_codes_05</expressionAlias>
           <genericTypes>
-            <string>java.lang.Long</string>
+            <string>java.lang.Integer</string>
           </genericTypes>
           <columnWidth>453.0</columnWidth>
         </FactMapping>
